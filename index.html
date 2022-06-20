@@ -5,20 +5,19 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Custom font Helvetica Nueue -->
-  <link rel="stylesheet" href="font/helvetica-nueue-cyr/helvetica-nueue-cyr/stylesheet.css">
+  <link rel="stylesheet" href="/font/helvetica-nueue-cyr/helvetica-nueue-cyr/stylesheet.css">
   <!-- Remix icon CDN link -->
   <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
-  <link rel="stylesheet" href="./css/styles.css">  
+  <link rel="icon" href="/images/title-logo.png" type="image/x-icon">
+  <link rel="stylesheet" href="/css/styles.css">  
   <title>Silverback Australia</title>
 </head>
 <body>
   <nav>
     <div class="nav-container">
       <div class="navbar">
-        <div class="brand">
-          <a href="#home" class="logo">
-            <img src="./svg/silverback-logo.svg" alt="silverback-logo">
-          </a>
+        <div class="brand">        
+          <img src="/svg/silverback-logo.svg" alt="silverback-logo">        
         </div>
         <div class="nav-menu">
           <div class="hamburger"><div class="bar"></div></div>
@@ -27,7 +26,7 @@
             <li><a href="#about" data-after="About">About</a></li>
             <li><a href="#services" data-after="Services">Services</a></li>
             <li><a href="#portfolio" data-after="Projects">Projects</a></li>
-            <li><a href="#contact" data-after="Contact">Contact</a></li>
+            <li><a href="/contact.html" target="_blank" data-after="Contact">Contact</a></li>
           </ul>
         </div>
       </div>
@@ -35,76 +34,71 @@
   </nav>
   <!-------- End of Navigation -------->
 
-  <!-------- Hero Homepage Section -------->
+  <!-------- Start of Hero Homepage Section -------->
   <section id="home" class="hero">
-    <div class="hero-content">
-      <h1 class="fade-in">Pragmatic, revolutionary</h1>
-      <h1>first principles investments</h1>
-      <!-- <p>We support and inspire technology thought leaders</p> -->
-      <!-- <p >We invest in every type of technology ideas from software to space</p> -->
-         
-    </div>   
+    <div class="container-md">
+      <div class="hero-content">
+        <h1 class="fade-in">Pragmatic, revolutionary<br>
+          first principles investments</h1>
+      </div>      
+    </div>    
   </section>
 
+   <!-------- Start of About Section -------->
   <section id="about" class="about-section">  
     <div class="container-md">
      
       <div class="about-content-top">      
-        <div class="about-text fade-in">
-          <h3>About Us</h3>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam soluta in sunt deleniti cupiditate sint ratione corrupti, amet omnis nesciunt. </p>                 
+        <div class="about-text">
+          <h2>About Us</h2>
+          <p class="fade-in">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam soluta in sunt deleniti cupiditate sint ratione corrupti, amet omnis nesciunt. </p>                 
         </div>
         <div class="about-img"></div>
       </div>
 
       <div class="about-content-bottom">
         <div class="about-text fade-in">
-          <h5>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam soluta in sunt deleniti cupiditate sint ratione corrupti, amet omnis nesciunt. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta veritatis quas beatae quae laborum placeat sed quis ipsam molestias animi?</h5>
+          <h3>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam soluta in sunt deleniti cupiditate sint ratione corrupti, amet omnis nesciunt. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta veritatis quas beatae quae laborum placeat sed quis ipsam molestias animi?</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum cupiditate illo suscipit magnam recusandae, eos quod modi? Aliquid autem, sequi deleniti est et aspernatur, ipsum, ex quis incidunt vitae quae?</p>                
         </div>
         <div class="about-img"></div>
       </div>   
-    </div>     
- 
+    </div> 
   </section>
 
   <!-------- Start of Services -------->
   <section id="services" class="services">
     <div class="container-md">
-      <h3>Services</h3>
+      <h2>Services</h2>
       <ul class="service-wrapper fade-in">
         <li class="service-item">
           <i class="ri-send-plane-2-line"></i>
-          <h5>Resource Planning</h5>
+          <h4>Resource Planning</h4>
           <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam, enim Lorem</p>
         </li>
         <li class="service-item">
           <i class="ri-anchor-line"></i>
-          <h5>Partnership</h5>
+          <h4>Partnership</h4>
           <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam, autem Lorem</p>
         </li>
         <li class="service-item">
           <i class="ri-calculator-line"></i>
-          <h5>Technology Advisory</h5>
+          <h4>Technology Advisory</h4>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, asperiores Lorem</p>
         </li>
       </ul> 
       <div class="service-action">
-        <h4>We help build and invest in startups</h4>
-        <h4 class="fade-in">If this is you,
-          <div class="cta-btn">
-            <a href="#contact">Get in Touch</a>
-          </div>
-        </h4>
+        <h2>We help build and invest in startups</h2>
+        <h3 class="fade-in">If this is you, <a href="/contact.html" target="_blank" class="cta-btn">Get  in Touch</a></h3>       
       </div>    
     </div>   
   </section>
 
-    <!-------- Start of POrtfolio -------->
+    <!-------- Start of Portfolio -------->
   <section id="portfolio" class="portfolio">
    
     <div class="container-md">    
-      <h3>Investment Portfolio</h3>     
+      <h2>Investment Portfolio</h2>     
       <h5 class="fade-in">Telecommunications</h5>
       <div class="portfolio-wrapper">
         
@@ -164,49 +158,27 @@
     </div>    
   </section>
 
-    <!-------- Start of Footer -------->
-  <footer id="contact">  
+  <!-------- Start of Footer -------->
+  <footer>  
     <div class="container-md">
-      <div class="details">
-
-      </div>
+     
       <p class="footer-heading">For consultation, media inquiries or partnerships</p>
       <div class="company-info">
-        <img src="./svg/footer-logo.svg" alt="silverback-logo" class="logo">
-        <p>35 This is st, Anywhere city,<br>3000 Adelaide, Australia </p>        
+        <a href="#home"><img src="/svg/silverback-logo.svg" alt="silverback-logo"></a>
+        <p>Suite 6 Level 2,<br>186 Pulteney Street,<br>Adelaide 5000, Australia</p>        
       </div>
       <div class="cta">
-        <h1 class="modal-btn fade-in"><a href="#">Contact Us</a></h1>
+        <h3 class="contact-btn fade-in"><a href="/contact.html" target="_blank">Work With Us</a></h3>
         <div class="social-bar">
-          <a href="#"><i class="ri-facebook-line"></i></a>
-          <a href="#"><i class="ri-linkedin-line"></i></a>
-          <a href="#"><i class="ri-twitter-line"></i></a>         
+          <a href="#"><i class="ri-twitter-line"></i></a>
+          <a href="#"><i class="ri-linkedin-line"></i></a>  
         </div>
       </div>
     </div>
-    <div class="modal-bg">
-      <div class="modal-box">
-       
-        <p>Please feel free to send us your inquiry using the form below. Thank you</p>
-        <i class="ri-close-fill modal-close"></i>
-        <form action="#" class="modal-form">
-
-          <input type="text" name="name" placeholder="Name" required>
-       
-          <input type="text" name="email" placeholder="Email" required>
-
-          <input type="text" name="name" placeholder="Company" required>
-        
-          <textarea type="text" name="message" placeholder="Message" rows="6" required></textarea>
-        
-          <button type="submit" class="submit-btn">Send Message</button>
-
-        </form>
-      </div>
-    </div>
+   
     <p class="copyright">&copy Silverback 2022 All Rights Reserved</p>
   </footer>
 
-  <script src="./javascript/main.js"></script>
+  <script src="/javascript/main.js"></script>
 </body>
 </html>

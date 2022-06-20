@@ -4,9 +4,6 @@ const hamburger = document.querySelector(".nav-container .navbar .nav-menu .hamb
 const mobileMenu = document.querySelector(".nav-container .navbar .nav-menu ul")
 const menuLinks = document.querySelectorAll(".nav-container .navbar .nav-menu ul li a")
 const faders = document.querySelectorAll(".fade-in")
-const modalBtn = document.querySelector(".modal-btn")
-const modalBg = document.querySelector(".modal-bg")
-const modalClose = document.querySelector(".modal-close")
 
 // Navbar Sticky
 const heroOptions = {
@@ -51,6 +48,8 @@ const revealOnScroll = new IntersectionObserver(
   (entries, revealOnScroll) => {
   entries.forEach(entry => {
     entry.target.classList.toggle("reveal", entry.isIntersecting)
+    // To remove fade-in animation after
+    if (entry.isIntersecting) revealOnScroll.unobserve(entry.target)
   })
 }, revealOptions)
 
@@ -58,11 +57,3 @@ faders.forEach(fader => {
   revealOnScroll.observe(fader)
 })
 
-// Contact modal popup
-modalBtn.addEventListener("click", () => {
-  modalBg.classList.add("modal-active")
-})
-
-modalClose.addEventListener("click", () => {
-  modalBg.classList.remove("modal-active")
-})
