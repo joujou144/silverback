@@ -330,7 +330,7 @@ nav {
 
 .hero {
   min-height: 100vh;
-  background-image: url(/images/silverbackherobg.jpg);
+  background-image: url(../images/silverbackherobg.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -377,7 +377,7 @@ nav {
 }
 
 .about-content-top > .about-img {
-  background: url(/svg/dust.svg) no-repeat center / cover;
+  background: url(../svg/dust.svg) no-repeat center / cover;
   width: 70%;
   height: 420px;
   z-index: -1;
@@ -396,7 +396,7 @@ nav {
 }
 
 .about-content-bottom > .about-img {
-  background: url(/images/about.png) no-repeat center / cover;
+  background: url(../images/about.png) no-repeat center / cover;
   height: 350px;
   flex: 1 1 20%;
   margin-top: -70px;
