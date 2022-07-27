@@ -901,7 +901,7 @@ textarea::-webkit-scrollbar-thumb {
   .form-container {
     max-width: 400px;
     margin: 0 auto;
-    margin-top: -80px;
+    margin-top: -7em;
   }
 
   .contact-form input,
