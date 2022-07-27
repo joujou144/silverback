@@ -507,6 +507,7 @@ nav {
 
 .telco-item-top {
   flex-direction: column;
+  gap: var(--spacer);
   width: calc(34% - 2em);
 }
 
@@ -656,9 +657,11 @@ footer .cta i:hover {
   content: '';
   background: var(--aqua);
   height: 1px;
+  top: 0;
+  left: 0;
+  right: 0;
   width: 85%;
   margin: 0 auto;
-  top: 0; 
 }
 
 /* ------  CONTACT PAGE ------ */
