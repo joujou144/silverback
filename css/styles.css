@@ -689,7 +689,7 @@ header.contact-page {
 .form-container {
   max-width: 600px;
   margin: 0 auto;
-  margin-top: -50px;
+  margin-top: -6.25em;
   position: relative;
 }
 
